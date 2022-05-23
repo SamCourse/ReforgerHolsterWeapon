@@ -1,0 +1,8 @@
+GameProject {
+ ID "ReforgerHolsterWeapon"
+ GUID "596F00811028DCC9"
+ TITLE "ReforgerHolsterWeapon"
+ Dependencies {
+  "5614BBCCBB55ED1C" "58D0FB3206B6F859"
+ }
+}
