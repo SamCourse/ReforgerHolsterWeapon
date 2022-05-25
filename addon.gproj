@@ -5,4 +5,31 @@ GameProject {
  Dependencies {
   "5614BBCCBB55ED1C" "58D0FB3206B6F859"
  }
+ Configurations {
+  GameProjectConfig PC {
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{518AE2E5A9361F76}" {
+     }
+     StringTableDefinition "{5972D9514D1C0313}" {
+      StringTableSource "{91E0F6253032266E}Language/localization.st"
+      Languages {
+       LanguageDefinition "{5972D9514AF39D5A}" {
+        Code "en_us"
+        StringTableRuntime "{B6B9D254CDF5D976}Language/reforgerholsterweapon_localization.en_us.conf"
+       }
+      }
+     }
+    }
+   }
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
 }
