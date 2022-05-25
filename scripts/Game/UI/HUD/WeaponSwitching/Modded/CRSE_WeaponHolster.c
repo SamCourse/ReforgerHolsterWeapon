@@ -39,8 +39,8 @@ class CRSE_WeaponHolster: SCR_InfoDisplay {
 		if (!this.lastWeapon)
 			return;
 		
-		this.lastWeapon = null;
 		characterController.SelectWeapon(this.lastWeapon);
+		this.lastWeapon = null;
 	}
 	
 	
